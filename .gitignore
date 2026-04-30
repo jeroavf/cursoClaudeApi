@@ -1,0 +1,49 @@
+# --- Segurança e Variáveis de Ambiente ---
+.env
+.venv
+env/
+venv/
+ENV/
+auth.json
+*.pem
+*.key
+
+# --- Python (Byte-compiled / optimize) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+
+# --- Bibliotecas e Dependências ---
+# Frequentemente não enviamos a pasta de bibliotecas, pois usamos o requirements.txt
+lib/
+lib64/
+bin/
+include/
+share/
+
+# --- Banco de Dados Local ---
+*.sqlite3
+*.db
+
+# --- Docker ---
+.docker/
+
+# --- Logs e Dados Temporários ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Arquivos de Sistema e IDEs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Pastas de Dados (Específico para seu projeto de Forense/Deepfakes) ---
+# Se 'input/testdata/' contém vídeos ou imagens pesadas, adicione aqui:
+input/testdata/
+output/
+downloads/
