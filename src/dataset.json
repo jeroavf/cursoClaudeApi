@@ -1,11 +1,11 @@
 [
   {
-    "task": "Write a Python function that extracts the AWS region from an S3 bucket URI (e.g., 's3://my-bucket-us-west-2/path/to/file'). The region is located between the last hyphen and the first forward slash after the bucket name."
+    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI string (e.g., 's3://my-bucket/path/to/file.txt') and returns just the bucket name."
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an IAM role with a trust policy allowing the EC2 service to assume it. Include a basic policy that allows full S3 access."
+    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to a specific S3 bucket named 'company-data'."
   },
   {
-    "task": "Write a regex pattern that matches valid AWS Lambda function names. Lambda function names must start with a letter or underscore, contain only alphanumeric characters and hyphens, and be 1-64 characters long."
+    "task": "Write a regex pattern that matches valid AWS EC2 instance IDs (format: i- followed by 17 hexadecimal characters)."
   }
 ]
