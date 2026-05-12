@@ -7,7 +7,7 @@ ENV/
 auth.json
 *.pem
 *.key
-
+src/.ipynb_checkpoints/
 # --- Python (Byte-compiled / optimize) ---
 __pycache__/
 *.py[cod]
